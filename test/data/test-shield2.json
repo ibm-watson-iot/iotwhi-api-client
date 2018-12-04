@@ -1,0 +1,21 @@
+{
+  "_id": "sh_i3t3u4i6",
+  "_rev": "2-3598c06d5774917beb518a64c532fd3f",
+  "isDisabled": false,
+  "needsActivationCheck": true,
+  "type": "edge",
+  "actionIds": [],
+  "description": "Heart Rate Shield",
+  "shieldParameters": {
+    "heartRateThreshold": 120
+  },
+  "name": "Heart Rate Shield",
+  "contexts": [
+    "ORG.te_asd37mm9"
+  ],
+  "createdByUserId": "us_oceax5wb",
+  "updatedByUserId": "us_oceax5wb",
+  "createdAt": 1543229814148,
+  "updatedAt": 1543229933974,
+  "docType": "shield"
+}

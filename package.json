@@ -1,0 +1,41 @@
+{
+  "name": "iotwhi-api-client",
+  "version": "1.0.0",
+  "license": "IPL-1.0",
+  "author": "IBM",
+  "description": "Client for IoT Worker Ingishts API.",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ibm-watson-iot/iotwhi-api-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ibm-watson-iot/iotwhi-api-client/issues"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test/*.js",
+    "linter": "./node_modules/.bin/eslint lib/** test/**",
+    "postpublish": "git tag -a v$npm_package_version -m 'Version: $npm_package_version' && git push --tags"
+  },
+  "dependencies": {
+    "bluebird": "~3.5.0",
+    "pluralize": "^6.0.0",
+    "request": "~2.81.0",
+    "request-promise": "~4.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.18.0",
+    "eslint-config-airbnb-base": "^11.1.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-json": "^1.2.0",
+    "eslint-plugin-node": "^4.2.1",
+    "mocha": "~3.2.0",
+    "nock": "~9.0.2",
+    "node-mocks-http": "^1.6.4",
+    "should": "^11.2.1",
+    "xunit-file": "~0.0.7"
+  }
+}

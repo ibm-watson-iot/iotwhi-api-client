@@ -1,0 +1,18 @@
+{
+  "_id": "sh_xrxu7tda",
+  "_rev": "5-0e5daab74908eaa3dcc4f54e43bf6691",
+  "name": "Water leak shield",
+  "type": "cloud",
+  "description": "Water leak shield",
+  "actionIds": [
+    "e2b02ecb97f933e539113997f9e02b63"
+  ],
+  "contexts": [
+    "ORG.te_asd37mm9"
+  ],
+  "createdByUserId": "us_oceax5wb",
+  "updatedByUserId": "us_oceax5wb",
+  "createdAt": 1509481791807,
+  "updatedAt": 1519650534526,
+  "docType": "shield"
+}
