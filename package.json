@@ -1,6 +1,6 @@
 {
   "name": "iotwhi-api-client",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "IPL-1.0",
   "author": "IBM",
   "description": "Client for IoT Worker Ingishts API.",
