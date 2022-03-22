@@ -5,7 +5,7 @@
   "author": "IBM",
   "description": "Client for IoT Worker Ingishts API.",
   "engines": {
-    "node": ">=8.0.0"
+    "node": ">=14.0.0"
   },
   "main": "./lib/index.js",
   "repository": {
@@ -18,7 +18,6 @@
   "scripts": {
     "test": "./node_modules/.bin/mocha test/*.js",
     "linter": "./node_modules/.bin/eslint lib/** test/**",
-    "preinstall": "npx npm-force-resolutions",
     "postpublish": "git tag -a v$npm_package_version -m 'Version: $npm_package_version' && git push --tags"
   },
   "dependencies": {
@@ -38,10 +37,5 @@
     "node-mocks-http": "~1.6.6",
     "should": "~13.2.1",
     "xunit-file": "~1.0.0"
-  },
-  "resolutions": {
-    "lodash": "4.17.21",
-    "json-schema": "0.4.0",
-    "ajv": "6.12.3"
   }
 }
